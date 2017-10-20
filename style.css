@@ -1,0 +1,278 @@
+body {
+background: #000000 url(im/бок..jpg) repeat-x;
+margin:0 0 8px 0;
+padding:0;
+}
+
+.t-content {
+margin:0 auto;
+padding:0;
+}
+
+.header{
+background: #000 url(im/Село2.jpg) no-repeat top right;
+background-size: cover;
+margin:0;
+padding:0;
+height:212px;
+}
+
+.center {
+background: #222629 url(im/Контент.png) repeat-y;
+margin:0;
+padding:50;
+}
+
+
+
+@media all and (min-width) {
+h1 {
+color:#BBC7D5;
+font-weight:600;
+font:32px verdana, arial, helvetica, sans-serif;
+margin:0 106px 0 0;
+padding:0;
+float : right; 
+ }
+}
+
+
+h1 {
+font:18px verdana, arial, helvetica, sans-serif;
+color:#000000;
+font-weight:700;
+margin:25px 0 0 16px;
+padding:50;
+text-align:  center;
+}
+
+h2 {
+font:20px verdana, arial, helvetica, sans-serif;
+color:#885846;
+font-weight:100;
+margin:6px 14px 10px 32px;
+padding:0;
+}
+i{
+font:11px verdana, arial, helvetica, sans-serif;
+color:#666;
+margin:0;
+padding:0;
+font-style: italic;
+}
+li {
+    list-style-type: none;}
+.right_text{
+margin:0;
+padding:0 0 22px 0;
+}
+
+.right_text p{
+font:13px verdana, arial, helvetica, sans-serif;
+color:#9EA8AF;
+margin:0;
+padding:4px 14px 4px 22px;
+text-align : justify;
+line-height:1.7;
+}
+
+.footer {
+background: url(im/Белый...png) no-repeat;
+margin:0;
+padding:0;
+height:100px;
+
+}
+.footer, a, p {
+color:#000000;
+font:11px verdana, arial, helvetica, sans-serif;
+text-decoration:none;
+text-align:center;
+}
+
+
+.main-menu {
+    
+width: 210px;
+    
+margin: 0;
+    
+padding: 0;
+   
+ list-style: none;
+
+}
+
+
+.main-menu a {
+    
+display: block;
+    
+margin-bottom: -1px;
+    
+padding: 8px 14px;
+    
+text-decoration: none;
+   
+ color: #000000;
+    
+border: 0px solid #e5e5e5;
+
+}
+
+
+.main-menu a:hover {
+    
+background:  #A9A9A9;
+}
+
+
+.main-menu > li {
+   
+ position: relative;
+
+}
+
+
+.main-menu .sub-menu {
+   
+ position: absolute;
+    
+top: -0px;
+    
+left: 180px;
+   
+ z-index: 10;
+   
+ display: none;
+ 
+ width: 150px;
+   
+ margin: 0;
+    
+padding: 0;
+    
+list-style: none;
+   
+ background: #fcf8e3;
+}
+
+
+
+.main-menu > li:hover .sub-menu {
+    
+display: block;
+
+}
+.main-menu .sssd {
+   
+ position: absolute;
+    
+top: 0px;
+    
+left: 180px;
+   
+ z-index: 5;
+   
+ display: none;
+ 
+ width: 150px;
+   
+ margin: 0;
+    
+padding: 0;
+    
+list-style: none;
+   
+ background: #fcf8e3;
+}
+
+
+
+.main-menu > li:hover .sssd {
+    
+display: block;
+
+}
+.main-menu .sub-menu2 {
+   
+ position: absolute;
+    
+top: 0px;
+    
+left: 180px;
+   
+ z-index: 5;
+   
+ display: none;
+ 
+ width: 150px;
+   
+ margin: 0;
+    
+padding: 0;
+    
+list-style: none;
+   
+ background: #fcf8e3;
+}
+
+
+
+.main-menu > li:hover .sub-menu2 {
+    
+display: block;
+
+}
+.photo {
+width: 254px;
+float : left;
+margin-top: 12px; 
+margin-right: 8px; 
+margin-left: 12px; 
+}
+.main-menu .sub-menu3 {
+   
+ position: absolute;
+    
+top: 0px;
+    
+left: 180px;
+   
+ z-index: 5;
+   
+ display: none;
+ 
+ width: 150px;
+   
+ margin: 0;
+    
+padding: 0;
+    
+list-style: none;
+   
+ background: #fcf8e3;
+
+}
+
+
+
+.main-menu > li:hover .sub-menu3 {
+    
+display: block;
+
+}
+.photo {
+width: 254px;
+float : left;
+margin-top: 12px; 
+margin-right: 8px; 
+margin-left: 12px; 
+}
+.fig {
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+    font-style: italic; /* Курсивное начертание */
+    margin-top: 10; /* Отступ сверху */
+    margin-bottom: 5px; /* Отступ снизу */
+    color: #666; /* Цвет подрисуночной подписи */
